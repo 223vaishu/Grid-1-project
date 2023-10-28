@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    padding-top: 70px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns:200px 200px 200px ;
+}
+.Places{
+    border: 3px soild #757373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Places img{
+    width: 200px;
+    height: 200px;
+}
